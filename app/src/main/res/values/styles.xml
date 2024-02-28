@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <!-- Otros estilos -->
+
+    <!-- Estilo para el AlertDialog -->
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">#9F715D</item> <!-- Color del texto -->
+        <item name="android:background">#FFFFFF</item> <!-- Color de fondo -->
+    </style>
+
+    <!-- Estilo para el DatePickerDialog -->
+    <style name="DatePickerDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:datePickerDialogTheme">@style/MyDatePickerDialogStyle</item>
+    </style>
+
+    <!-- Estilo personalizado para el DatePickerDialog -->
+    <style name="MyDatePickerDialogStyle" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:datePickerStyle">@style/MyDatePickerStyle</item>
+    </style>
+
+    <!-- Estilo personalizado para el DatePicker -->
+    <style name="MyDatePickerStyle" parent="android:Widget.Material.Light.DatePicker">
+        <!-- Cambiar color del texto de los números del calendario -->
+        <item name="android:textColorPrimary">#9F715D</item>
+
+        <!-- Cambiar color de fondo de la parte superior del DatePickerDialog -->
+        <item name="android:colorControlNormal">#FFFFFF</item>
+
+        <!-- Cambiar el color de los botones y la fecha seleccionada -->
+        <item name="android:colorAccent">#9F715D</item>
+    </style>
+
+</resources>
+
+
+

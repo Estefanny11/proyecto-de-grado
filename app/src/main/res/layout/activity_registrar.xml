@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    tools:context=".RegistrarActivity">
+
+    <EditText
+        android:id="@+id/txtnombre"
+
+
+        android:layout_width="263dp"
+        android:layout_height="47dp"
+
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:backgroundTint="#9F715D"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/nombre"
+        android:textColor="#9F715D"
+        android:textColorHighlight="#9F715D"
+        android:textColorHint="#9F715D"
+        android:textColorLink="#9F715D"
+        android:textSize="15sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.151" />
+
+
+    <EditText
+        android:id="@+id/txtapellido"
+
+        android:layout_width="263dp"
+
+        android:layout_height="47dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+
+        android:backgroundTint="#9F715D"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/apellido"
+        android:textColor="#9F715D"
+        android:textColorHighlight="#9F715D"
+        android:textColorHint="#9F715D"
+        android:textColorLink="#9F715D"
+        android:textSize="15sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.244" />
+
+    <EditText
+
+        android:id="@+id/txtcorreo"
+        android:layout_width="263dp"
+        android:layout_height="47dp"
+
+
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:backgroundTint="#9F715D"
+        android:fontFamily="casual"
+        android:hint="@string/correoR"
+        android:textColor="#9F715D"
+        android:textColorHighlight="#9F715D"
+        android:textColorHint="#9F715D"
+        android:textColorLink="#9F715D"
+
+
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.453" />
+
+    <EditText
+        android:id="@+id/identicacion"
+
+        android:layout_width="263dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:backgroundTint="#9F715D"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/identificacion"
+        android:textColor="#9F715D"
+        android:textColorHighlight="#9F715D"
+        android:textColorHint="#9F715D"
+        android:textColorLink="#9F715D"
+        android:textSize="15sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35" />
+
+
+    <EditText
+
+        android:id="@+id/Contraseña"
+        android:layout_width="112dp"
+        android:layout_height="46dp"
+
+
+        android:backgroundTint="#9F715D"
+        android:ems="10"
+        android:hint="@string/contraseña"
+        android:textColor="#9F715D"
+        android:textColorHighlight="#9F715D"
+
+        android:textColorHint="#9F715D"
+        android:textColorLink="#9F715D"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.204"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825" />
+
+    <EditText
+        android:id="@+id/ContraseñaR"
+        android:layout_width="126dp"
+
+        android:layout_height="63dp"
+
+        android:backgroundTint="#9F715D"
+        android:ems="10"
+
+        android:hint="@string/contraseñaR"
+        android:textColor="#9F715D"
+        android:textColorHighlight="#9F715D"
+        android:textColorHint="#9F715D"
+        android:textColorLink="#9F715D"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.823" />
+
+    <Button
+        android:id="@+id/btn_registro"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="122dp"
+        android:layout_height="51dp"
+        android:background="@drawable/borderboton"
+        android:backgroundTint="#A5775A"
+        android:fontFamily="casual"
+        android:text="@string/btnregistro"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#9F715D"
+        android:textColorHint="#9F715D"
+        android:textColorLink="#9F715D"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.931" />
+
+    <Button
+        android:id="@+id/btn_ya_tiene_cuenta"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="@string/btn_ya_cuenta"
+        android:textColor="#633D25"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/editTextFechaNacimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#9F715D"
+        android:clickable="true"
+        android:ems="10"
+
+        android:focusable="false"
+        android:fontFamily="casual"
+        android:hint="Fecha de Nacimiento"
+
+        android:textColor="#9F715D"
+        android:textColorHighlight="#9F715D"
+        android:textColorHint="#9F715D"
+        android:textColorLink="#9F715D"
+        android:textSize="15sp"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.335"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.577" />
+
+
+    <EditText
+        android:id="@+id/editTextGenero"
+        android:layout_width="278dp"
+        android:layout_height="53dp"
+        android:clickable="true"
+        android:focusable="false"
+        android:hint="Género"
+
+
+        android:backgroundTint="#9F715D"
+        android:fontFamily="casual"
+        android:textColor="#9F715D"
+        android:textColorHighlight="#9F715D"
+        android:textColorHint="#9F715D"
+        android:textColorLink="#9F715D"
+        android:textSize="15sp"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.702" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
